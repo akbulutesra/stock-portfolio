@@ -1,0 +1,37 @@
+.header {
+    height: 140px;
+    background-color: #05225a;
+}
+.header-title {
+    padding-top: .5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+.profile-image {
+    outline: none;
+    cursor: pointer;
+    align-self: center!important;
+    flex-direction: column!important;
+    display: flex!important;
+    box-sizing: border-box;
+    align-self: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-image: url(../../assets/pexels-photo-1037914.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    margin: auto;
+}
+.text-white-50 {
+    color: blanchedalmond;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-div {
+    margin-top: 30px;
+}
